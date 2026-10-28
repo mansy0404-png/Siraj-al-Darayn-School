@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة سراج الدارين الأساسية والثانوية | Siraj al-Darayn School</title>
+    <link rel="icon" href="logo.jpg" type="image/jpeg">
+    <link rel="shortcut icon" href="logo.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-bg"></div>
+    
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jpg" alt="شعار مدرسة سراج الدارين" data-i18n-alt="logoAlt">
+                <span data-i18n="schoolNameShort">مدرسة سراج الدارين</span>
+            </div>
+            <button class="nav-toggle" aria-label="القائمة" id="navToggle" data-i18n-aria="menuAria">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link" data-i18n="navHome">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link" data-i18n="navAbout">عن المدرسة</a></li>
+                <li><a href="#mission" class="nav-link" data-i18n="navMission">الرسالة</a></li>
+                <li><a href="#founders" class="nav-link" data-i18n="navFounders">التأسيس</a></li>
+                <li><a href="#gallery" class="nav-link" data-i18n="navGallery">معرض الصور</a></li>
+                <li><a href="#details" class="nav-link" data-i18n="navDetails">التفاصيل</a></li>
+                <li><a href="#contact" class="nav-link" data-i18n="navContact">الاتصال</a></li>
+                <li class="nav-controls">
+                    <button class="nav-control-btn" id="langToggle" aria-label="Change Language">
+                        <span id="langToggleText">EN</span>
+                    </button>
+                    <button class="nav-control-btn" id="themeToggle" aria-label="Toggle Theme">
+                        <svg class="theme-icon sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="theme-icon moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-logo fade-in-up">
+                <img src="logo_2.jpg" alt="شعار المدرسة" data-i18n-alt="logoAlt2">
+            </div>
+            <h1 class="hero-title fade-in-up delay-1" data-i18n="heroTitle">
+                مدرسة سراج الدارين الأساسية والثانوية
+            </h1>
+            <p class="hero-subtitle fade-in-up delay-2">Siraj al-Darayn School</p>
+            <p class="hero-tagline fade-in-up delay-3" data-i18n="heroTagline">أهلا بكم في سرح العلم والمعرفة</p>
+            <div class="hero-scroll fade-in-up delay-4">
+                <span data-i18n="heroScroll">اكتشف المزيد</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="aboutLabel">عن المدرسة</span>
+                <h2 class="section-title" data-i18n="aboutTitle">نبذة عن مدرسة سراج الدارين</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p class="about-paragraph" data-i18n="aboutP1">
+                        مدرسة سراج الدارين كانت ولا تزال أحد الأماكن التي أنشئت واستمرت في أوقات صعبة، 
+                        وتقديم العلم بأفضل الطرق الممكنة هي عونها الأهم.
+                    </p>
+                    <p class="about-paragraph" data-i18n="aboutP2">
+                        شكلت مدرسة سراج الدارين جيلاً صاعداً من المتعلمين دون فصلهم عن المواد العلمية، 
+                        بل جمعت في تشكيلة خاصة نوعاً من التآلف بين المواد العلمية والدينية.
+                    </p>
+                    <p class="about-paragraph" data-i18n="aboutP3">
+                        تمنح مدرسة سراج الدارين شهادات معتمدة ومعترف بها رسمياً من وزارة التعليم في الصومال، والتي تتيح للطلاب مواصلة مسيرتهم التعليمية والانتقال بسلاسة إلى الجامعات داخل الوطن وخارجه.
+                    </p>
+                </div>
+                <div class="about-cards">
+                    <div class="info-card reveal delay-1">
+                        <div class="info-card-icon">📍</div>
+                        <h3 data-i18n="cardLocation">المكان</h3>
+                        <p data-i18n="cardLocationAr">مقديشو / حي سيليغا</p>
+                        <p class="info-card-en">Mogadishu / Siliga</p>
+                    </div>
+                    <div class="info-card reveal delay-2">
+                        <div class="info-card-icon">📚</div>
+                        <h3 data-i18n="cardAge">العمر</h3>
+                        <p data-i18n="cardAgeAr">٨ سنوات</p>
+                        <p class="info-card-en">8 years</p>
+                    </div>
+                    <div class="info-card reveal delay-3">
+                        <div class="info-card-icon">🎓</div>
+                        <h3 data-i18n="cardCert">الشهادات</h3>
+                        <p data-i18n="cardCertAr">شهادات موثوقة على مستوى الجامعات</p>
+                        <p class="info-card-en">Recognized University Level Certificates</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="galleryLabel">الصور</span>
+                <h2 class="section-title" data-i18n="galleryTitle">معرض صور المدرسة</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-i18n="gallerySubtitle">لحظات من مسيرة العلم والتعليم</p>
+            </div>
+            
+            <div class="carousel">
+                <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="السابق" data-i18n-aria="carouselPrev">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide active">
+                            <img src="Graduates.jpg" alt="خريجي المدرسة" data-i18n-alt="slide1Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide1Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide1Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Graduates_2.jpg" alt="خريجي المدرسة" data-i18n-alt="slide2Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide2Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide2Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="Graduates_3.jpg" alt="خريجي المدرسة" data-i18n-alt="slide3Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide3Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide3Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="old_graduates.jpg" alt="خريجي المدرسة" data-i18n-alt="slide4Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide4Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide4Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="old_graduates_2.jpg" alt="خريجي المدرسة" data-i18n-alt="slide5Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide5Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide5Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="supporting_new_gens.jpg" alt="خريجي المدرسة" data-i18n-alt="slide6Alt">
+                            <div class="carousel-caption">
+                                <h3 data-i18n="slide6Title">خريجي المدرسة</h3>
+                                <p data-i18n="slide6Desc">أجيال متميزة من خريجي سراج الدارين</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-btn carousel-next" id="carouselNext" aria-label="التالي" data-i18n-aria="carouselNext">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="carousel-dots" id="carouselDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mission" class="section mission">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="missionLabel">الرسالة والأهداف</span>
+                <h2 class="section-title" data-i18n="missionTitle">رسالة المدرسة وأهدافها</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="mission-content reveal">
+                <div class="mission-card">
+                    <div class="mission-icon">📜</div>
+                    <h3 data-i18n="missionHeader">الرسالة</h3>
+                    <p class="mission-text" data-i18n="missionText">"إعداد وتنشئة جيل واعد، مسلح بالمعارف والعلوم الشرعية والكونية، معتز بهويته الإسلامية، ومتخلق بالأخلاق الفاضلة والقيم النبيلة."</p>
+                </div>
+            </div>
+            <div class="goals-section">
+                <h3 class="goals-title reveal" data-i18n="goalsTitle">الأهداف</h3>
+                <div class="goals-grid">
+                    <div class="goal-card reveal">
+                        <div class="goal-number">١</div>
+                        <p data-i18n="goal1">تأصيل الهوية والمنهج الوسطي: نشر وتعزيز الدين الإسلامي وفق المنهج الوسطي المعتدل، ومحاربة التطرف، والغلو، والفكر التكفيري.</p>
+                    </div>
+                    <div class="goal-card reveal delay-1">
+                        <div class="goal-number">٢</div>
+                        <p data-i18n="goal2">تحصين الفكر والمجتمع: حماية المجتمع والطلاب من العقائد الفاسدة، والأفكار المنحرفة، والتوجهات القائمة على الهوى.</p>
+                    </div>
+                    <div class="goal-card reveal delay-2">
+                        <div class="goal-number">٣</div>
+                        <p data-i18n="goal3">تمكين اللغة العربية: تطوير وتكامل مهارات الطلاب في التحدث باللغة العربية، والكتابة بها، وتمكينهم من التعبير بطلاقة.</p>
+                    </div>
+                    <div class="goal-card reveal">
+                        <div class="goal-number">٤</div>
+                        <p data-i18n="goal4">التوعية الدينية المجتمعية: توعية المجتمع المحلي وتثقيفه لرفع مستوى فهمه واستيعابه لأمور دينه الإسلامي الصحيح.</p>
+                    </div>
+                    <div class="goal-card reveal delay-1">
+                        <div class="goal-number">٥</div>
+                        <p data-i18n="goal5">الجمع بين الأصالة والمعاصرة: فتح الآفاق أمام طلاب حلقات العلم في المساجد وتأهيلهم للالتحاق بالتعليم الأكاديمي النظامي، تحقيقاً للتكامل بين العلوم الشرعية الأصيلة والمعارف العصرية الحديثة.</p>
+                    </div>
+                    <div class="goal-card reveal delay-2">
+                        <div class="goal-number">٦</div>
+                        <p data-i18n="goal6">بناء الدعاة وقادة المستقبل: تشجيع الطلاب وتأهيلهم لنقل العلم الشرعي إلى المجتمع، وإعدادهم ليكونوا خطباء ودعاة قادرين على قيادة الأمة وتوجيهها.</p>
+                    </div>
+                    <div class="goal-card reveal">
+                        <div class="goal-number">٧</div>
+                        <p data-i18n="goal7">الارتقاء الأخلاقي وبناء الشخصية: تربية الطلاب على مكارم الأخلاق والمسؤولية، ليكونوا قدوة حسنة للأجيال القادمة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="founders" class="section founders">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="foundersLabel">التأسيس</span>
+                <h2 class="section-title" data-i18n="foundersTitle">مؤسسو المدرسة</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle" data-i18n="foundersSubtitle">تأسست المدرسة في عام 2018م بجهود مباركة</p>
+            </div>
+            <div class="founders-grid">
+                <div class="founder-card reveal">
+                    <div class="founder-image-wrapper">
+                        <img src="head_teacher.jpg" alt="فضيلة الشيخ بشير شيخ علي بري" class="founder-image" data-i18n-alt="founder1Alt">
+                        <div class="founder-overlay"></div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 data-i18n="founder1">فضيلة الشيخ بشير شيخ علي بري</h3>
+                        <p data-i18n="founderRole1">أحد مؤسسي المدرسة ومديرها</p>
+                    </div>
+                </div>
+                <div class="founder-card reveal delay-1">
+                    <div class="founder-image-wrapper">
+                        <img src="Image.jpg" alt="فضيلة الشيخ داود علي عبار" class="founder-image" data-i18n-alt="founder2Alt">
+                        <div class="founder-overlay"></div>
+                    </div>
+                    <div class="founder-info">
+                        <h3 data-i18n="founder2">فضيلة الشيخ داود علي عبار</h3>
+                        <p data-i18n="founderRole2">أحد مؤسسي المدرسة</p>
+                    </div>
+                </div>
+            </div>
+            <div class="founding-reason reveal">
+                <p data-i18n="foundingReason">جاء تأسيس مدرسة سراج الدارين الأساسية والثانوية استجابةً لحاجة المجتمع الماسة والملحة في المنطقة لتعلم العلوم الشرعية الإسلامية واللغة العربية، وسداً لهذه الفجوة التعليمية والتربوية.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="details" class="section details">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="detailsLabel">معلومات تفصيلية</span>
+                <h2 class="section-title" data-i18n="detailsTitle">مراحل الدراسة وشروط الالتحاق</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="details-grid">
+                <div class="detail-card reveal">
+                    <h3 data-i18n="levelsTitle">مراحل المدرسة</h3>
+                    <ul class="detail-list">
+                        <li><strong data-i18n="level1">المرحلة الابتدائية:</strong> <span data-i18n="level1Years">سنة واحدة</span></li>
+                        <li><strong data-i18n="level2">المرحلة الإعدادية:</strong> <span data-i18n="level2Years">سنتان</span></li>
+                        <li><strong data-i18n="level3">المرحلة الثانوية:</strong> <span data-i18n="level3Years">سنتان</span></li>
+                    </ul>
+                </div>
+                <div class="detail-card reveal delay-1">
+                    <h3 data-i18n="requirementsTitle">شروط الالتحاق</h3>
+                    <ul class="detail-list">
+                        <li data-i18n="req1">أن لا يقل عمر الطالب عن تسع سنوات</li>
+                        <li data-i18n="req2">أن يعرف كتابة وقراءة اللغة العربية بشكل جيد</li>
+                        <li data-i18n="req3">أن يكون معه مسؤول شرعي</li>
+                    </ul>
+                </div>
+                <div class="detail-card reveal delay-2">
+                    <h3 data-i18n="accreditationTitle">الاعتراف بالشهادة</h3>
+                    <p data-i18n="accreditationText">المدرسة مسجلة بوزارة التعليم والثقافة الصومالية. تمنح المدرسة شهادات ثانوية دينية تمكن للخريجين للالتحاق بالجامعات الوطنية والخارجية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label" data-i18n="contactLabel">الاتصال</span>
+                <h2 class="section-title" data-i18n="contactTitle">معلومات الاتصال والمقر</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card reveal">
+                    <div class="contact-icon">📍</div>
+                    <h3 data-i18n="locationTitle">المقر الرئيسي</h3>
+                    <p data-i18n="locationText">حي siliga ameerikaanka، ناحية ودجر، مقديشو الصومال</p>
+                    <p class="contact-en">Siliga Americana, Wadajir District, Mogadishu, Somalia</p>
+                </div>
+                <div class="contact-card reveal delay-1">
+                    <div class="contact-icon">📞</div>
+                    <h3 data-i18n="phoneTitle">للاتصال</h3>
+                    <a href="tel:0618488887" class="contact-phone">0618488887</a>
+                    <a href="tel:0615350937" class="contact-phone">0615350937</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="section info">
+        <div class="container">
+            <div class="info-banner reveal">
+                <div class="info-banner-content">
+                    <h2 data-i18n="infoBannerTitle">مدرسة سراج الدارين</h2>
+                    <p class="info-banner-arabic" data-i18n="infoBannerArabic">مسيرة من العطاء في خدمة العلم والمعرفة</p>
+                    <p class="info-banner-english">A Journey of Giving in Service of Knowledge</p>
+                    <div class="info-banner-details">
+                        <div class="info-detail">
+                            <span class="info-detail-label" data-i18n="infoNameLabel">الاسم</span>
+                            <span class="info-detail-value" data-i18n="infoNameValue">مدرسة سراج الدارين الأساسية والثانوية</span>
+                        </div>
+                        <div class="info-detail">
+                            <span class="info-detail-label" data-i18n="infoLocationLabel">الموقع</span>
+                            <span class="info-detail-value" data-i18n="infoLocationValue">مقديشو - حي سيليغا</span>
+                        </div>
+                        <div class="info-detail">
+                            <span class="info-detail-label" data-i18n="infoAgeLabel">العمر</span>
+                            <span class="info-detail-value" data-i18n="infoAgeValue">٨ سنوات</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="شعار المدرسة" data-i18n-alt="logoAlt3">
+                    <div>
+                        <h3 data-i18n="footerSchoolName">مدرسة سراج الدارين</h3>
+                        <p>Siraj al-Darayn School</p>
+                    </div>
+                </div>
+                <p class="footer-text" data-i18n="footerTagline">أهلا بكم في سرح العلم والمعرفة</p>
+                <p class="footer-copy" data-i18n="footerCopy">© 2026 مدرسة سراج الدارين الأساسية والثانوية - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
